@@ -3,24 +3,24 @@
 
 // NATHAN HERE
 
-const playerOneMoveOneType;
-const playerOneMoveTwoType;
-const playerOneMoveThreeType;
+var playerOneMoveOneType;
+var playerOneMoveTwoType;
+var playerOneMoveThreeType;
 
 
-const playerOneMoveOneValue;
-const playerOneMoveTwoValue;
-const playerOneMoveThreeValue;
+var playerOneMoveOneValue;
+var playerOneMoveTwoValue;
+var playerOneMoveThreeValue;
 
 
-const playerTwoMoveOneType;
-const playerTwoMoveTwoType;
-const playerTwoMoveThreeType;
+var playerTwoMoveOneType;
+var playerTwoMoveTwoType;
+var playerTwoMoveThreeType;
 
 
-const playerTwoMoveOneValue;
-const playerTwoMoveTwoValue;
-const playerTwoMoveThreeValue;
+var playerTwoMoveOneValue;
+var playerTwoMoveTwoValue;
+var playerTwoMoveThreeValue;
 
 const setPlayerMoves = (player, moveOneType, moveOneValue, moveTwoType, moveTwoValue, moveThreeType, moveThreeValue) => {
     if (player == "Player One") {
